@@ -125,6 +125,28 @@
 		a {
 			color: rgba(150,162,178,1);
 		}
+	@import '//fonts.googleapis.com/css?family=Bangers';
+
+body { margin:0; }
+.wrap {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  height:100vh;
+  background:black;
+}
+.time-to {
+  text-align:center;
+  font-family:Bangers;
+  color:white;
+  font-size:35px;
+  letter-spacing:2px;
+  span {
+    display:block;
+    font-size:80px;
+    color:red;
+  }
+}
 	</style>
 </head>
 <body>
@@ -134,6 +156,10 @@
 	By Yangcheesen
 <p class="p2">Tất cả iPhone, iPod touch, iPad</p>
 <p><br><span>iOS 11.4-11.4.1</span></p>
+	.wrap{ :'ng-app' => 'app' }
+  .time-to
+    The world might end in...
+    %span{ :'countdown' => '', :'date' => 'January 1, 2020 12:00:00' } &nbsp;
 <a class="button" href="">Tải (Sắp Có)</a><br>
 <span align="center"><br><br><br>
 <p><br><span>substitute bởi Comex</span></p>
